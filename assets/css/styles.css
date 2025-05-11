@@ -321,11 +321,19 @@ img {
   font-size: var(--h3-font-size);
   color: var(--text-color);
   font-weight: var(--font-medium);
+  margin-bottom:0.35rem;
+}
+
+.home__subtitle2{
+  font-size:0.7rem;
+  color: #668;
+  font-weight: 400;
   margin-bottom: var(--mb-0-75);
 }
 
 .home__description {
   margin-bottom: var(--mb-2);
+  text-wrap: balance;
 }
 
 .home__scroll {
